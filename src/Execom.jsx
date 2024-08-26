@@ -16,7 +16,7 @@ function Execom() {
                 <img src={faisal} alt=""  className="imgs"  />
               </div>
               <div className="staff_sec">
-                <h1> Faisal</h1>
+                <h1>Mhd Faisal</h1>
                 <p>Nodal officer</p>
               </div>
             </div>
