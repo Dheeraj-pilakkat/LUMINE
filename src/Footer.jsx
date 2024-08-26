@@ -1,5 +1,4 @@
 import React from "react";
-
 function Footer() {
   function Submit(e) {
     const formEle = document.querySelector("form");
@@ -30,8 +29,6 @@ function Footer() {
           <div className="column1">
 
             <form id="form" className="form" onSubmit={(e) => Submit(e)}>
-              
-              {/* <label htmlFor="Name">Name</label> */}
               <input
                 type="text"
                 name="Name"
@@ -39,7 +36,6 @@ function Footer() {
                 placeholder="Enter your name"
                 autoComplete="name"
               />
-              {/* <label htmlFor="email">Email</label> */}
               <input
                 type="email"
                 name="Email"
@@ -47,7 +43,6 @@ function Footer() {
                 autoComplete="email"
                 placeholder="Enter your Email"
               />
-              {/* <label htmlFor="message">Message</label> */}
               <textarea
               type="text"
                 name="Message"

@@ -4,7 +4,7 @@ import members from "./Members";
 import faisal from "./assets/images/Faisal.jpg"
 import shilja from "./assets/images/shilja.jpeg"
 
-function Execom(props) {
+function Execom() {
   return (
     <div>
       <div className="execom" id="execom">

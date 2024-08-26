@@ -4,7 +4,6 @@ import Header from './Header.jsx'
 import image from './Image.jsx'
 import members from './Members.jsx'
 import './index.css'
-// import './App.css'
 import './Apps.css'
 import Home from './Home.jsx'
 import About from './About.jsx'
@@ -18,9 +17,9 @@ createRoot(document.getElementById('root')).render(
     <Header />
     <Home/>
     <About/>
-    <Event data={image}/>
+    <Event/>
     <Eventgallery slides={image} options={options}/>
-    <Execom data={members}/>
+    <Execom/>
     <Footer/>
   </StrictMode>,
 )

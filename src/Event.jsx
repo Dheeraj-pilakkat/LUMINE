@@ -1,5 +1,5 @@
 import React from "react";
-function Event(props) {
+function Event() {
   return (
     <div className="events" id="event">
       <div className="a_row1">

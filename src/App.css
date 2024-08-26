@@ -571,7 +571,6 @@ a {
     background-size: cover;
     background-position: center;
     backdrop-filter: scale(10);
-    /* margin-top: 70px; */
   }
   .h_main {
     background-color: rgba(0, 0, 0, 0.545);

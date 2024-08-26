@@ -2,19 +2,16 @@ import React from "react";
 import useEmblaCarousel from "embla-carousel-react";
 import Autoplay from 'embla-carousel-autoplay'
 import {PrevButton,NextButton,usePrevNextButtons}from './Eventarows.jsx'
-
 import "./Eventgallery.css"
 function Eventgallery(props) {
   const { slides, options } = props
   const [emblaRef, emblaApi] = useEmblaCarousel(options, [Autoplay(1000)])
-
   const {
     prevBtnDisabled,
     nextBtnDisabled,
     onPrevButtonClick,
     onNextButtonClick
   } = usePrevNextButtons(emblaApi)
-
   return (
     <section className="embla">
     <div className="embla__viewport" ref={emblaRef}>

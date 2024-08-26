@@ -1,6 +1,5 @@
 import { Component } from "react";
 import logo from "./assets/images/Untitled-design.png"
-
 class Header extends Component {
   state={clicked:false}
   handleclick = ()=>{
