@@ -10,6 +10,21 @@ import abin from './assets/images/abin.jpeg';
 import rashid from './assets/images/rashid.jpg';
 const members=[
     {
+        img: shahana,
+        name:"Shahana Khanam",
+        post:"Cheif Execuitve Officer"
+    },
+    {
+        img:abin,
+        name:"Abin Vinod",
+        post:"Chief Creative Officer"
+    },
+    {
+        img:rashid,
+        name:"Rashid K S",
+        post:"Chief Operations Officer"
+    },
+    {
         img:member1,
         name:"Varsha V R",
         post:"Chief Finance Officer",
@@ -50,22 +65,6 @@ const members=[
         name:"Rashmina K",
         post:"IPR & Research Officer",
         id:6
-    },
-    {
-        img: shahana,
-        name:"Shahana Khanam",
-        post:"Cheif Execuitve Officer"
-    },
-    {
-        img:abin,
-        name:"Abin Vinod",
-        post:"Chief Creative Officer"
-    },
-    {
-        img:rashid,
-        name:"Rashid K S",
-        post:"Chief Operations Officer"
     }
-
 ]
 export default members;
