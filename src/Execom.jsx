@@ -1,30 +1,31 @@
 import React from "react";
 import ScrollCarousel from "scroll-carousel-react";
-// import './main.js'
 import members from "./Members";
-import Execomslider from "./Execomslider";
+import faisal from "./assets/images/Faisal.jpg"
+import shilja from "./assets/images/shilja.jpeg"
+
 function Execom(props) {
   return (
     <div>
       <div className="execom" id="execom">
-        <h1 className="e_h1">Meet our team</h1>
+        <h1 className="a_h1">Meet our team</h1>
         <div className="exe_row">
           <div className="staff">
             <div className="staff_card">
-              <div className="img">
-                <img src="" alt="" />
+              <div className="imges">
+                <img src={faisal} alt=""  className="imgs"  />
               </div>
               <div className="staff_sec">
-                <h1>Faisal</h1>
+                <h1> Faisal</h1>
                 <p>Nodal officer</p>
               </div>
             </div>
             <div className="staff_card">
-              <div className="img">
-                <img src="" alt="" />
+              <div className="imges">
+                <img src={shilja} alt="" className="imgs"/>
               </div>
               <div className="staff_sec">
-                <h1>Shilja.</h1>
+                <h1>Shilja</h1>
                 <p>Nodal officer</p>
               </div>
             </div>
@@ -32,47 +33,23 @@ function Execom(props) {
           <ScrollCarousel autoplay autoplaySpeed={9} speed={9}>
             {members.map((value) => (
               <div key={value.id} className="card">
-                  <div class="img-bx">
+                  <div className="img-bx">
                     <img src={value.img} className="imga" alt="img" />
                   </div>
-                  <div class="content">
-                    <div class="detail">
+                  <div className="content">
+                    <div className="detail">
                       <h2>
                         {value.name}
                         <br />
-                        <span>{value.post}</span>
+                        <span className="card_p">{value.post}</span>
                       </h2>
-                      <ul class="sci">
-                        <li>
-                          <a href="#">
-                            <i class="fab fa-facebook-f"></i>
-                          </a>
-                        </li>
-                        <li>
-                          <a href="#">
-                            <i class="fab fa-twitter"></i>
-                          </a>
-                        </li>
-                        <li>
-                          <a href="#">
-                            <i class="fab fa-linkedin-in"></i>
-                          </a>
-                        </li>
-                        <li>
-                          <a href="#">
-                            <i class="fab fa-instagram"></i>
-                          </a>
-                        </li>
-                      </ul>
                     </div>
                   </div>
                 </div>
-        
             ))}
           </ScrollCarousel>
         </div>
       </div>
-      <div className="staffs"></div>
     </div>
   );
 }

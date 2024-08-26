@@ -23,11 +23,11 @@ function Footer() {
   return (
     <div>
       <div className="footer" id="contact">
+            <div>
+              <h1 className="a_h1">Love to hear your opinion 👋🏼</h1>
+            </div>
         <div className="f_content">
           <div className="column1">
-            <div>
-              <h1 className="f_h1">Love to hear your opinion 👋🏼</h1>
-            </div>
 
             <form id="form" className="form" onSubmit={(e) => Submit(e)}>
               
@@ -55,7 +55,7 @@ function Footer() {
                 autoComplete="off"
                 placeholder="Enter the message"
               ></textarea>
-            <button type="submit">Let's connect</button>
+            <button type="submit" className="submit">Let's connect</button>
             </form>
           </div>
           <div className="column2">
@@ -87,7 +87,7 @@ function Footer() {
                   iedc_mcet@malabarcet.ac.in
                 </a>
                 <a href="tel:+919846132862">98461 32862</a>
-                <div className="icos">
+                <section className="icos">
 
                 <a href="http://" target="_blank" rel="noopener noreferrer">
                   <i className="fa-brands fa-instagram ico"></i>
@@ -101,13 +101,13 @@ function Footer() {
                 <a href="http://" target="_blank" rel="noopener noreferrer">
                   <i className="fa-brands fa-linkedin ico"></i>
                 </a>
-                </div>
+                </section>
               </p>
             </div>
           </div>
         </div>
         <div className="f_footer">
-          <a href="">
+          <a href="https://www.linkedin.com/in/dheeraj-pilakkat/" target="_blank">
             <p>© 2024 | All Right Reserved || Dheeraj</p>
           </a>
         </div>

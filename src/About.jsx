@@ -28,7 +28,7 @@ function About () {
           <h1 className="a_h1">Vision</h1>
           <p className="a_p">
             To establish an innovation culture among innovators by exposing them
-            to cutting –edge technology and establishing the organization as a
+            to cutting edge technology and establishing the organization as a
             platform for learning and innovation by producing entrepreneurs who
             are technically proficient and skilled.
           </p>

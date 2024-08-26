@@ -1,5 +1,4 @@
 import { Component } from "react";
-import "./App.css";
 import logo from "./assets/images/Untitled-design.png"
 
 class Header extends Component {
@@ -14,14 +13,11 @@ class Header extends Component {
         <a href="./index.html" className="link">
           <img
             src={logo}
-            alt=""
-            srcSet=""
+            alt="logo"
             className="logo"
-            
           />
         </a>
         <nav id="navbar" className={this.state.clicked ? "#navbar ":"#navbar active"}>
-
           <a href="#home" className="link">
             Home
           </a>
@@ -37,14 +33,9 @@ class Header extends Component {
           <a href="#contact" className="link">
             Contact us
           </a>
-          
-       
-
-        
         </nav>
           <div id="mobile" onClick={this.handleclick} style={{pointer:"crusor"}}>
             <i className={this.state.clicked?'fas fa-times':'fas fa-bars'}></i>
-            
           </div>
       </header>
     </>
