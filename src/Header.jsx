@@ -9,7 +9,7 @@ class Header extends Component {
   return (
     <>
       <header className="header">
-        <a href="./index.html" className="link">
+        <a href="#" className="link">
           <img
             src={logo}
             alt="logo"
