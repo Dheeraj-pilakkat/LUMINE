@@ -64,7 +64,7 @@ function Footer() {
                 href="https://maps.app.goo.gl/rb8Pv36LWuLYqQMs8"
               >
                 <p>
-                  Via, Pallur PO Near Wadakancherry,
+                  viaPallur PO Near Wadakancherry,
                   <br />
                   Cheruthuruthy Rd, Desamangalam,
                   <br />
@@ -81,19 +81,15 @@ function Footer() {
                 <a href="mailto:iedc_mcet@malabarcet.ac.in">
                   iedc_mcet@malabarcet.ac.in
                 </a>
-                <a href="tel:+919846132862">98461 32862</a>
                 <section className="icos">
 
-                <a href="http://" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.instagram.com/lumine.mcet" target="_blank" rel="noopener noreferrer">
                   <i className="fa-brands fa-instagram ico"></i>
                 </a>
-                <a href="http://" target="_blank" rel="noopener noreferrer">
+                <a href="https://" target="_blank" rel="noopener noreferrer">
                   <i className="fa-brands fa-facebook ico"></i>
                 </a>
-                <a href="http://" target="_blank" rel="noopener noreferrer">
-                  <i className="fa-brands fa-square-x-twitter ico"></i>
-                </a>
-                <a href="http://" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.linkedin.com/in/lumine-06b8242aa/" target="_blank" rel="noopener noreferrer">
                   <i className="fa-brands fa-linkedin ico"></i>
                 </a>
                 </section>
